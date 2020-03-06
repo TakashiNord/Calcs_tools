@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="CalcTools.exe"/>
+    <OBJFILES value="CalcTools.obj main.obj about.obj Message.obj Miniature.obj Graphic.obj 
+      Help.obj"/>
+    <RESFILES value="CalcTools.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) main.dfm about.dfm Message.dfm Miniature.dfm Graphic.dfm 
+      Help.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="tee.lib ELPACKB5.lib vclx.lib bcbsmp.lib vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib bcbsmp.lib vclx.lib ELPACKB5.lib tee.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi vclie.bpi bcb2kaxserver.bpi bcbie.bpi bcbsmp.bpi 
+      dsnap.bpi inet.bpi inetdb.bpi dbrtl.bpi vcldb.bpi adortl.bpi bdertl.bpi 
+      vcldbx.bpi dss.bpi ibxpress.bpi nmfast.bpi dclocx.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi teeqr.bpi webdsnap.bpi ELPACKB5.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="CalcTools.cpp"/>
+    <INCLUDEPATH value="d:\CBuilder5\CBuilder5\Projects;C:\CBuilder5\Projects;&quot;e:\builder components\elpack v2.80 for bcb 5\code\source&quot;;E:\;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="d:\CBuilder5\CBuilder5\Projects;C:\CBuilder5\Projects;&quot;e:\builder components\elpack v2.80 for bcb 5\code&quot;;&quot;e:\builder components\elpack v2.80 for bcb 5\code\source&quot;;E:\;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-Id:\CBuilder5\CBuilder5\Projects -IC:\CBuilder5\Projects 
+      -I&quot;e:\builder components\elpack v2.80 for bcb 5\code\source&quot; -IE:\. 
+      -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -boa"/>
+    <CFLAG1 value="-O2 -H=c:\PROGRA~1\borland\CBUILD~1\lib\vcl60.csm -Hc -Vx -Ve -X- -a8 -b- 
+      -k- -vi -c -tW -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="CalcTools.cpp" FORMNAME="" UNITNAME="CalcTools" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CalcTools.res" FORMNAME="" UNITNAME="CalcTools" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="main.cpp" FORMNAME="FormMain" UNITNAME="main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="about.cpp" FORMNAME="FormAbout" UNITNAME="about" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Message.cpp" FORMNAME="FormMessage" UNITNAME="Message" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Miniature.cpp" FORMNAME="FormMiniature" UNITNAME="Miniature" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Graphic.cpp" FORMNAME="FormGraphic" UNITNAME="Graphic" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Help.cpp" FORMNAME="FormHelp" UNITNAME="Help" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <FILES>
+    <FILE type="override" value="CalcTools.cpp" translator="Auto">
+      <WARNOPTSTR value=" -w-par"/>
+    </FILE>
+  </FILES>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=1
+MinorVer=8
+Release=1
+Build=7
+Debug=0
+PreRelease=1
+Special=1
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=КнаАПО, ОГТ-ОПУ 
+FileDescription=Расчет режимов резания
+FileVersion=1.8.1.7
+InternalName=CalcTools.exe
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=CalcTools.exe
+ProductName=Расчет режимов резания
+ProductVersion=2.1.0.1
+Comments=
+SpecialBuild=RAE
+
+[HistoryLists\hlIncludePath]
+Count=13
+Item0=d:\CBuilder5\CBuilder5\Projects\;C:\CBuilder5\Projects\;e:\builder components\elpack v2.80 for bcb 5\code\source\;E:\;$(BCB)\include;$(BCB)\include\vcl
+Item1=d:\CBuilder5\CBuilder5\Projects;C:\CBuilder5\Projects\;e:\builder components\elpack v2.80 for bcb 5\code\source\;E:\;$(BCB)\include;$(BCB)\include\vcl
+Item2=C:\CBuilder5\Projects\;e:\builder components\elpack v2.80 for bcb 5\code\source\;E:\;$(BCB)\include;$(BCB)\include\vcl
+Item3=C:\CBuilder5\Projects\;e:\builder components\elpack v2.80 for bcb 5\code\source\;..;E:\;$(BCB)\include;$(BCB)\include\vcl
+Item4=C:\CBuilder5\Projects;e:\builder components\elpack v2.80 for bcb 5\code\source\;..;E:\;$(BCB)\include;$(BCB)\include\vcl
+Item5=e:\builder components\elpack v2.80 for bcb 5\code\source\;..;E:\;$(BCB)\include;$(BCB)\include\vcl
+Item6=e:\builder components\elpack v2.80 for bcb 5\code\source\;C:\CBuilder5\Projects\;E:\;$(BCB)\include;$(BCB)\include\vcl
+Item7=e:\builder components\elpack v2.80 for bcb 5\code\source;C:\CBuilder5\Projects\;E:\;$(BCB)\include;$(BCB)\include\vcl
+Item8=C:\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item9=..;$(BCB)\include;$(BCB)\include\vcl
+Item10=..\;$(BCB)\include;$(BCB)\include\vcl
+Item11=$(BCB)\include;$(BCB)\include\vcl
+Item12=
+
+[HistoryLists\hlLibraryPath]
+Count=13
+Item0=d:\CBuilder5\CBuilder5\Projects\;C:\CBuilder5\Projects\;e:\builder components\elpack v2.80 for bcb 5\code\;e:\builder components\elpack v2.80 for bcb 5\code\source\;E:\;$(BCB)\lib\obj;$(BCB)\lib
+Item1=d:\CBuilder5\CBuilder5\Projects;C:\CBuilder5\Projects\;e:\builder components\elpack v2.80 for bcb 5\code\;e:\builder components\elpack v2.80 for bcb 5\code\source\;E:\;$(BCB)\lib\obj;$(BCB)\lib
+Item2=C:\CBuilder5\Projects\;e:\builder components\elpack v2.80 for bcb 5\code\;e:\builder components\elpack v2.80 for bcb 5\code\source\;E:\;$(BCB)\lib\obj;$(BCB)\lib
+Item3=C:\CBuilder5\Projects\;e:\builder components\elpack v2.80 for bcb 5\code\;e:\builder components\elpack v2.80 for bcb 5\code\source\;..;E:\;$(BCB)\lib\obj;$(BCB)\lib
+Item4=C:\CBuilder5\Projects;e:\builder components\elpack v2.80 for bcb 5\code\;e:\builder components\elpack v2.80 for bcb 5\code\source\;..;E:\;$(BCB)\lib\obj;$(BCB)\lib
+Item5=e:\builder components\elpack v2.80 for bcb 5\code\;e:\builder components\elpack v2.80 for bcb 5\code\source\;..;E:\;$(BCB)\lib\obj;$(BCB)\lib
+Item6=e:\builder components\elpack v2.80 for bcb 5\code\;e:\builder components\elpack v2.80 for bcb 5\code\source\;C:\CBuilder5\Projects\;E:\;$(BCB)\lib\obj;$(BCB)\lib
+Item7=e:\builder components\elpack v2.80 for bcb 5\code;e:\builder components\elpack v2.80 for bcb 5\code\source;C:\CBuilder5\Projects\;E:\;$(BCB)\lib\obj;$(BCB)\lib
+Item8=C:\CBuilder5\Projects\;E:\;$(BCB)\lib\obj;$(BCB)\lib
+Item9=C:\CBuilder5\Projects;..;$(BCB)\lib\obj;$(BCB)\lib
+Item10=..;$(BCB)\lib\obj;$(BCB)\lib
+Item11=..\;$(BCB)\lib\obj;$(BCB)\lib
+Item12=$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

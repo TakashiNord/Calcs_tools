@@ -1,0 +1,18 @@
+  double tmpX = FastLineSeries1->XValues->Value[1]
+    - FastLineSeries1->XValues->Value[0];
+  FastLineSeries1->Delete(0);
+  FastLineSeries1->AddXY(
+    FastLineSeries1->XValues->Last() + tmpX,random(100),"",clTeeColor);
+  tmpX = FastLineSeries2->XValues->Value[1] -
+    FastLineSeries2->XValues->Value[0];
+  FastLineSeries2->Delete(0);
+  FastLineSeries2->AddXY(
+    FastLineSeries2->XValues->Last()+tmpX,random(100),"",clTeeColor);
+
+#include <stdlib.h>
+#include <shellapi.hpp>
+
+  String St = "http://"+Label3->Caption;
+  ShellExecute(Handle,"open",St.c_str(),0,0,SW_SHOW);
+
+
